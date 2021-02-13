@@ -73,7 +73,7 @@ class ProductItem extends HTMLElement {
       }`;
       
       let list = document.createElement('li');
-      list.classList = "product";
+      list.className = "product";
 
       let image = document.createElement('img');
       image.setAttribute('src', './assets/shop-icon.png');
